@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcHttpServer", "CalcHttpServer\CalcHttpServer.csproj", "{64151758-8972-4687-B2CA-AB3746ADEDAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64151758-8972-4687-B2CA-AB3746ADEDAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64151758-8972-4687-B2CA-AB3746ADEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64151758-8972-4687-B2CA-AB3746ADEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64151758-8972-4687-B2CA-AB3746ADEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7F7FDB99-C655-4205-88C9-B37711D5A9CD}
+	EndGlobalSection
+EndGlobal

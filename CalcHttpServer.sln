@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2002
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalcHttpServer", "CalcHttpServer\CalcHttpServer.csproj", "{64151758-8972-4687-B2CA-AB3746ADEDAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UT", "UT\UT.csproj", "{A3524DAA-863B-42BC-95DD-B64506AA2310}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{64151758-8972-4687-B2CA-AB3746ADEDAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64151758-8972-4687-B2CA-AB3746ADEDAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64151758-8972-4687-B2CA-AB3746ADEDAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3524DAA-863B-42BC-95DD-B64506AA2310}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3524DAA-863B-42BC-95DD-B64506AA2310}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3524DAA-863B-42BC-95DD-B64506AA2310}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3524DAA-863B-42BC-95DD-B64506AA2310}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

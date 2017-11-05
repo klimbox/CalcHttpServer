@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace HttpCalculator
 {
-    class CalcHttpServer
+    public class CalcHttpServer
     {
         private HttpListener _listener;
         private double num1 = 0,
@@ -20,6 +20,7 @@ namespace HttpCalculator
        
 
         public CalcHttpServer() : this("http://localhost:80/") { }
+        public CalcHttpServer(int constrFromTest) {  }
         public CalcHttpServer(string url)
         {
             _listener = new HttpListener();
@@ -77,7 +78,7 @@ namespace HttpCalculator
             output.Close();
         }
 
-        private string Calculate(double num1, double num2, string opr)
+        public string Calculate(double num1, double num2, string opr)
         {
             string res;
             switch (opr)

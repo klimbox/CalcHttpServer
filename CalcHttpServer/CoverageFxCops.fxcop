@@ -21,7 +21,10 @@
   <IgnoreGeneratedCode>False</IgnoreGeneratedCode>
  </ProjectOptions>
  <Targets>
-  <Target Name="$(ProjectDir)/CalcHttpServer/CalcHttpServer/bin/Debug/CalcHttpServer.exe" Analyze="True" AnalyzeAllChildren="True" />
+  <AssemblyReferenceDirectories>
+   <Directory>$(ProjectDir)/CalcHttpServer/CalcHttpServer/bin/Debug/</Directory>
+  </AssemblyReferenceDirectories>
+  <Target Name="$(ProjectDir)/bin/Debug/CalcHttpServer.exe" Analyze="True" AnalyzeAllChildren="True" />
  </Targets>
  <Rules>
   <RuleFiles>

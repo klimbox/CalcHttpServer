@@ -10,7 +10,7 @@ namespace HttpCalculator
     {
         static void Main(string[] args)
         {
-            CalcHttpServer calcServer = new CalcHttpServer("http://localhost:8080/");
+            CalcHttpServer calcServer = new CalcHttpServer("http://localhost:8370/");
             calcServer.Start();
             Console.ReadLine();
         }
